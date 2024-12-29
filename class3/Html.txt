@@ -1,0 +1,19 @@
+Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. 
+1993
+Tim Berners-Lee
+Html 5
+tag base language
+Two types of Tag in Html 
+
+1) Pair tag
+Open tag<>
+Closing tag</>
+eg
+
+<p></p>
+2) Self closing tag
+</>
+
+eg <br>
+
+
