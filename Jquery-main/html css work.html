@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    // $(document).ready(function(){
+    //     $("#changeColor").click(function(){
+    //         $("#myId").css("color", "blue");
+    //     });
+
+    //     $("#changeContent").click(function(){
+    //         $("#myId").text("New Content");
+    //     });
+    // });
+    $(document).ready(function(){
+        $("#changeColor").click(function(){
+            $("#main").css("color", "red");
+        });
+        $("#changeContent").click(function(){
+            $("#main").text("New content");
+        });
+    });
+    
+    </script>
+</head>
+<body>
+    <!-- <div id="myId" class="myClass">Original Content</div>
+    <button id="changeColor">Change Color</button>
+    <button id="changeContent">Change Content</button> -->
+
+<div id="main">Orignal content</div>
+
+<button id="changeColor">changeColor</button>
+<button id="changeContent">changedContent</button>
+
+</body>
+</html>
+
