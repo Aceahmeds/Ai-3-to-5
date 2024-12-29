@@ -1,0 +1,31 @@
+
+/* universal selector *  */
+*{
+    background-color:black;
+}
+
+
+/*  <!-- id selector -->  */
+
+#box1{
+    height:250px;
+    width:250px;
+    background-color:yellow;
+}
+/* <!-- class selector --> */
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+}
+
+/* <!-- Tag selector --> */
+p{
+    color: red;
+    font-size:20px;
+}
+
+h1{
+    color: green;
+    font-size:20px;
+}
