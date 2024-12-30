@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .main{
+        background-color: aqua;
+        height: 800px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+        /* grid-auto-rows: minmax(100px,auto);
+	grid-auto-columns: minmax(50px,auto); */
+grid-auto-rows: minmax(00px 1fr);
+grid-auto-columns: minmax(200px 1fr);
+
+    grid-gap: 20px;          
+    }
+.box{
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="box"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat odio ex quisquam eos aliquid distinctio eligendi sint necessitatibus mollitia repudiandae voluptas impedit laboriosam, obcaecati consectetur adipisci autem quibus eius explicabo aspernatur deserunt illum. Delectus ducimus dolores, vel a id accusamus optio suscipit provident, placeat natus tenetur aliquam dolore veniam ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta necessitatibus deserunt nulla earum quaerat, molestias vitae, expedita voluptatem rem eius suscipit ullam! Commodi harum illum officia consectetur ex illo</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <!-- <div class="box"></div>  -->
+    </div>
+    
+</body>
+</html>
